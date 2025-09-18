@@ -1,0 +1,12 @@
+def check_chess_cells():
+    a1 = int(input())
+    b1 = int(input())
+    a2 = int(input())
+    b2 = int(input())
+    color1 = (a1 + b1) % 2
+    color2 = (a2 + b2) % 2
+    if color1 == color2:
+        print('Да')
+    else:
+        print("Нет")
+check_chess_cells()
